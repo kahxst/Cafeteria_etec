@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Cantinho da Manhã</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap" rel="stylesheet">
+
+    <script src="jQuery/jquery-3.6.1.min.js"></script>
+
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#">Localização</a> </li>
+            <li> <a href="#">Fale Conosco</a> </li>
+        </ul>
+    </div>
+    <div class="header" >
+    <div class="titulo">
+        <h1 class="title1">Cantinho</h1>
+        <h1 class="title2">Da Manhã</h1>
+    </div>
+   </div>
+
+   <section class="section1">
+
+       <div class="box-container">
+           <div class="box">
+            <img src="img/grande/teste1.jpg" alt="" id="foto-grande">
+
+           </div>
+           
+
+           <div class="box2">
+            <img src="img/pequeno/img1.jpg" alt="" data-url="img/grande/img1.jpg" class="img1">
+            <img src="img/pequeno/img2.jpg" alt="" data-url="img/grande/img2.jpg">
+            <img src="img/pequeno/img3.jpg" alt="" data-url="img/grande/img3.jpg">
+            <img src="img/pequeno/img4.jpg" alt="" data-url="img/grande/img4.jpg">
+
+           </div>
+       </div>
+
+   </section>
+
+<!-- <script>
+$('.box2 img').click(function(){
+    caminho= $(this).attr('data-url');
+    $('#foto-grande').attr('src',caminho);
+    $('#foto-grande').fadeOut(0);
+    $('#foto-grande').fadeIn(900);
+})
+    
+</script> -->
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
