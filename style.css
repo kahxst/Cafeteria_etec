@@ -32,6 +32,15 @@ body{
     src: url(fontes/teste2.ttf);
 }
 
+@font-face {
+    font-family: fonte5;
+    src: url(fontes/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: 'fonte6';
+    src: url(fontes/RetroSignature.otf);
+}
 /* /////////menu  */
 
 .menu{
@@ -84,6 +93,7 @@ list-style-type: none;
     justify-content: center;
     align-items: center;
 
+
 }
 .header .titulo{
     /* border: 1px solid red; */
@@ -115,7 +125,7 @@ list-style-type: none;
 /* ////////////section1 */
 
 .section1{
-    height: 1200px;
+    height: 1100px;
     /* border: 1px solid green; */
     display: flex;
     justify-content: center;
@@ -175,4 +185,107 @@ transition: .3s;
 .section1 .box-container .box2 img:hover {
     transform: scale(1.1);
      transition: .3s;
-}  
+} 
+
+
+/* ///////////////section2/ */
+
+.section2{
+    height: 800px;
+    /* border: 1px solid red; */
+    background-color: #3b1f02;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 .box-container{
+    /* border: 2px solid yellow; */
+    height: 800px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section2 .titulo{
+    color:#fff ;
+    /* border: 1px solid green; */
+    height: 90px;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'fonte2';
+    font-weight: 100;
+    font-size: 32px;
+    width: 100%;
+}
+
+.section2 .box{
+    display: flex;
+    margin-top: 65px;
+}
+
+.section2 .box .box2{
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    width: 550px;
+    margin-left: 60px;
+}
+
+.section2 .box .box2 h2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height:70px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: 'fonte5';
+    color: #fff;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.section2 .box .box2 .fontw{
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+}
+
+.section2 .box .box2 .fontw i {
+    margin-bottom: 75px;
+    position: relative;
+    top: 6px;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.58);
+}
+
+/* /////////////section3////// */
+
+.section3{
+    height: 700px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section3 .box-container{
+    height: 700px;
+    width: 75%;
+    border: 1px solid rgb(25, 0, 255);
+}
+
+.section3 .titulo h1{
+    font-family: 'fonte6';
+    font-weight: 100;
+    font-size: 80px;
+}
